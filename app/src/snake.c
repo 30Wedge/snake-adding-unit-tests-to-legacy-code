@@ -26,7 +26,7 @@
 #include <sys/wait.h>
 #include <time.h>
 
-#include "conio.h"
+#include <conio.h>
 #include "snake.h"
 
 #ifdef DEBUG

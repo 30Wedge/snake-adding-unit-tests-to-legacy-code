@@ -2,9 +2,12 @@ CMakeFiles
 *.cmake
 *Cache*
 *.a
+*.o
+*.patch
 *.swp
 MyExample
 MyTest
 googletest
 Testing
 
+snake

@@ -8,10 +8,11 @@
 VERSION   = 1.0.1
 CC       ?= gcc
 CFLAGS   += -W -Wall -Werror -DVERSION=\"$(VERSION)\"
+CFLAGS   += -Iconio
 
 all: snake
 
-snake.o: Makefile snake.c snake.h conio.h
+snake.o: Makefile snake.c snake.h conio/conio.h
 
 clean:
 	-@$(RM) snake snake.o
