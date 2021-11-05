@@ -33,7 +33,7 @@ add_executable(
   snake_test
   test/snake_test.cpp
 )
-target_include_directories(snake_test PRIVATE test/fff)
+target_include_directories(snake_test PRIVATE test/fff test/mock)
 target_link_libraries(
   snake_test
   gtest_main

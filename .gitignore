@@ -14,6 +14,7 @@ Testing
 snake
 snake_test
 _deps
+*.so
 
 # cmake's generated makefile
 Makefile
