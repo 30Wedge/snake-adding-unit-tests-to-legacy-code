@@ -1,0 +1,10 @@
+CMakeFiles
+*.cmake
+*Cache*
+*.a
+*.swp
+MyExample
+MyTest
+googletest
+Testing
+
