@@ -9,6 +9,7 @@ MyExample
 MyTest
 googletest
 Testing
+.vscode
 
 # build artifacts
 snake
