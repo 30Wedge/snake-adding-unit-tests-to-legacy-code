@@ -15,6 +15,20 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
+## Build the App Executable
+add_library(conio INTERFACE )
+target_include_directories(conio INTERFACE src/conio)
+add_definitions(-DVERSION="1.0.1")
+add_executable(
+  snake
+  src/snake.c
+)
+target_link_libraries(
+    snake
+    conio
+)
+
+## Test executable
 add_executable(
   snake_test
   test/snake_test.cpp
