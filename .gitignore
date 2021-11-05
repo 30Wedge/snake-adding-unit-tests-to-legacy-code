@@ -10,4 +10,10 @@ MyTest
 googletest
 Testing
 
+# build artifacts
 snake
+snake_test
+_deps
+
+# cmake's generated makefile
+Makefile
